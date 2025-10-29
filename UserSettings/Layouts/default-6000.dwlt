@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ContainerWindow
   m_PixelRect:
     serializedVersion: 2
-    x: 7.2000003
-    y: 50.4
-    width: 1265.6
-    height: 694.4
+    x: 7.3333335
+    y: 50.666668
+    width: 1265.3334
+    height: 694.6667
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 6}
@@ -345,7 +345,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 15}
     m_SelectedIDs: d2b30000
     m_LastClickedID: 46034
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000044ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,7 +374,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000044ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -29.137306, y: 19.08081, z: 20.12514}
+    m_Target: {x: 35.14508, y: 53.7205, z: 39.93461}
     speed: 2
     m_Value: {x: -29.137306, y: 19.08081, z: 20.12514}
   m_RenderMode: 0
@@ -1048,11 +1048,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12431556, y: -0.85091555, z: 0.4542268, w: -0.23287386}
+    m_Target: {x: 0.146803, y: 0.41821203, z: -0.070180334, w: 0.89438015}
     speed: 2
     m_Value: {x: 0.12431557, y: 0.8509156, z: -0.4542268, w: 0.23287386}
   m_Size:
-    m_Target: 1.9301246
+    m_Target: 14.824286
     speed: 2
     m_Value: 1.9301246
   m_Ortho:
