@@ -382,9 +382,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   Player: {fileID: 1840051998}
-  CameraHeight: 14
-  CameraAngle: 26.2
-  CameraDistance: 8
+  CameraHeight: 8
+  CameraAngle: 45
+  CameraDistance: 11
   FollowSpeed: 23
   LookAtHeight: 1
 --- !u!1 &410087039
@@ -627,9 +627,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snowman (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4c52d8d7e38431a5a212f9e32565c07, type: 2}
     - target: {fileID: 9178052995675459344, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: EnemySpeed
-      value: 7
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -744,6 +748,10 @@ PrefabInstance:
     - target: {fileID: 5913834429931936099, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: m_Name
       value: Snowman (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: health
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1518,9 +1526,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snowman (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d4c52d8d7e38431a5a212f9e32565c07, type: 2}
     - target: {fileID: 9178052995675459344, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: EnemySpeed
-      value: 7
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2153,6 +2165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snowman (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: health
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9178052995675459344, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: EnemySpeed
       value: 7
@@ -2278,6 +2294,10 @@ PrefabInstance:
     - target: {fileID: 6534196202831375058, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: EnemySpeed
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: health
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
