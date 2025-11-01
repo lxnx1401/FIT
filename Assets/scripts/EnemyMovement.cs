@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float EnemySpeed = 3f;         // Hareket hızı
+    public float EnemySpeed = 0f;         // Hareket hızı
     public float RotationSpeed = 5f;      // Dönüş hızı
     private GameObject m_player;
 
