@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public float EnemySpeed = 0f;         // Hareket hızı
+    [Header("Movement Settings")]
+    public float EnemySpeed = 3f;         // Hareket hızı
     public float RotationSpeed = 5f;      // Dönüş hızı
+
+    [Header("Attack Settings")]
+    public float attackRange = 15f;        // Oyuncuya yaklaşınca saldırmaya başlama mesafesi
+
     private GameObject m_player;
 
     private void Awake()
     {
-        // Player'ı etiket ("tag") üzerinden buluyoruz
+        // Player'ı tag üzerinden bul
         m_player = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -19,19 +24,37 @@ public class EnemyMovement : MonoBehaviour
         if (m_player == null)
             return;
 
-        // Oyuncunun pozisyonuna göre yön vektörünü hesapla
-        Vector3 direction = m_player.transform.position - transform.position;
-        direction.y = 0f; // Y ekseninde dönmeyi engelle (sadece yatay düzlemde dönsün)
-        direction.Normalize();
+        // Oyuncuya olan mesafeyi hesapla
+        float distanceToPlayer = Vector3.Distance(transform.position, m_player.transform.position);
 
-        // Düşmanı oyuncuya doğru döndür
+        if (distanceToPlayer <= attackRange)
+        {
+            MoveTowardsPlayer();
+        }
+        // Eğer menzil dışındaysa hareket etmeyecek
+    }
+
+    private void MoveTowardsPlayer()
+    {
+        // Oyuncuya doğru yön vektörü
+        Vector3 direction = m_player.transform.position - transform.position;
+        direction.y = 0f; // Y ekseninde dönmeyi engelle
+
         if (direction != Vector3.zero)
         {
+            // Dönüş
             Quaternion lookRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * RotationSpeed);
         }
 
-        // Düşmanı oyuncuya doğru hareket ettir
+        // Hareket
         transform.Translate(Vector3.forward * EnemySpeed * Time.deltaTime);
+    }
+
+    // Debug için sahnede saldırı menzili gözüksün
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }
