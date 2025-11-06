@@ -16,12 +16,9 @@ public class PlayerController : MonoBehaviour
     {
         var keyboard = Keyboard.current;
 
-        bool walk = keyboard.wKey.isPressed || keyboard.sKey.isPressed;
-        bool left = keyboard.aKey.isPressed;
-        bool right = keyboard.dKey.isPressed;
+        bool walk = keyboard.wKey.isPressed || keyboard.sKey.isPressed || keyboard.aKey.isPressed ||keyboard.dKey.isPressed  ;
 
         anim.SetBool("walk", walk);
-        anim.SetBool("left", left);
-        anim.SetBool("right", right);
+        
     }
 }
