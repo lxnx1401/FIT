@@ -203,6 +203,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.509583
       objectReference: {fileID: 0}
@@ -242,6 +254,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (2)
@@ -335,6 +359,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.3222065
       objectReference: {fileID: 0}
@@ -374,6 +410,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (6)
@@ -1040,6 +1088,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3977012700150628109, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977012700150628109, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977012700150628109, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977012700150628109, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.8291273
       objectReference: {fileID: 0}
@@ -1087,6 +1147,18 @@ PrefabInstance:
       propertyPath: health
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1566,6 +1638,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.82305
       objectReference: {fileID: 0}
@@ -1605,6 +1689,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant
@@ -1843,6 +1939,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.72028923
       objectReference: {fileID: 0}
@@ -1882,6 +1990,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (3)
@@ -2314,6 +2434,18 @@ PrefabInstance:
       value: schnell gegner (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.49337
       objectReference: {fileID: 0}
@@ -2357,6 +2489,18 @@ PrefabInstance:
       propertyPath: EnemySpeed
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2370,6 +2514,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.39519
@@ -2410,6 +2566,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (1)
@@ -2775,6 +2943,18 @@ PrefabInstance:
       value: schnell gegner
       objectReference: {fileID: 0}
     - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034317266429334814, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.040434
       objectReference: {fileID: 0}
@@ -2818,6 +2998,18 @@ PrefabInstance:
       propertyPath: EnemySpeed
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2901,6 +3093,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.89259
       objectReference: {fileID: 0}
@@ -2940,6 +3144,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: eyePrefab
+      value: 
+      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: carrotPrefab
+      value: 
+      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: snowDeathEffect
+      value: 
+      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (4)
@@ -3166,7 +3382,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6593364516328617972, guid: 26e6b06dfc833874eb81ffcdaf8715b3, type: 3}
       propertyPath: duration
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -6593364516328617972, guid: 26e6b06dfc833874eb81ffcdaf8715b3, type: 3}
       propertyPath: powerUpType
