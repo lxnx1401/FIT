@@ -9,8 +9,11 @@ public class PowerUpManager : MonoBehaviour
     private bool isShielded = false;
 
     [Header("Shield Visual (Prefab)")]
-    public GameObject shieldVisualPrefab; // Mor şeffaf küre prefab'ı
-    private GameObject activeShield;       // Aktif kalkan nesnesi
+    public GameObject shieldVisualPrefab;
+    private GameObject activeShield;
+
+    [Header("UI Manager")]
+    public PowerUpUIManager uiManager;
 
     private void Start()
     {
@@ -18,6 +21,9 @@ public class PowerUpManager : MonoBehaviour
         playerRenderer = GetComponentInChildren<Renderer>();
         if (playerRenderer != null)
             originalColor = playerRenderer.material.color;
+
+        if (uiManager == null)
+            uiManager = FindObjectOfType<PowerUpUIManager>();
     }
 
     public void ActivatePowerUp(GiftPickup.PowerUpType type, float duration)
@@ -26,20 +32,23 @@ public class PowerUpManager : MonoBehaviour
         {
             case GiftPickup.PowerUpType.DamageUp:
                 StartCoroutine(DamageBoost(duration));
+                if (uiManager) uiManager.ShowIcon(uiManager.damageIcon, duration);
                 break;
             case GiftPickup.PowerUpType.FireRateUp:
                 StartCoroutine(FireRateBoost(duration));
+                if (uiManager) uiManager.ShowIcon(uiManager.fireRateIcon, duration);
                 break;
             case GiftPickup.PowerUpType.SlowEnemies:
                 StartCoroutine(SlowEnemies(duration));
+                if (uiManager) uiManager.ShowIcon(uiManager.slowIcon, duration);
                 break;
             case GiftPickup.PowerUpType.Shield:
                 StartCoroutine(ActivateShield(duration));
+                if (uiManager) uiManager.ShowIcon(uiManager.shieldIcon, duration);
                 break;
         }
     }
 
-    // 💥 Hasar artışı
     private IEnumerator DamageBoost(float duration)
     {
         shooting.bulletDamage *= 2f;
@@ -49,7 +58,6 @@ public class PowerUpManager : MonoBehaviour
         shooting.isDamageBoosted = false;
     }
 
-    // ⚡ Ateş hızı artışı
     private IEnumerator FireRateBoost(float duration)
     {
         shooting.TimeBetweenShots /= 3f;
@@ -57,16 +65,13 @@ public class PowerUpManager : MonoBehaviour
         shooting.TimeBetweenShots *= 3f;
     }
 
-    // 🧊 Düşmanları yavaşlatma
-     private IEnumerator SlowEnemies(float duration)
+    private IEnumerator SlowEnemies(float duration)
     {
         EnemyMovement[] enemies = FindObjectsOfType<EnemyMovement>();
 
         foreach (var e in enemies)
         {
             e.EnemySpeed *= 0.3f;
-
-            // 🔵 Renk yanıp sönme efekti başlat
             var rend = e.GetComponentInChildren<Renderer>();
             if (rend != null)
                 StartCoroutine(EnemyFlashEffect(rend, duration));
@@ -78,13 +83,12 @@ public class PowerUpManager : MonoBehaviour
             e.EnemySpeed /= 0.3f;
     }
 
-    // 💡 Düşman rengini açık mavi yapıp hızlı hızlı yanıp sönmesini sağlar
     private IEnumerator EnemyFlashEffect(Renderer rend, float duration)
     {
         Color original = rend.material.color;
-        Color flashColor = new Color(0f, 0.7f, 1f); // açık mavi
+        Color flashColor = new Color(0f, 0.7f, 1f);
         float elapsed = 0f;
-        float flashSpeed = 0.15f; // yanıp sönme hızı
+        float flashSpeed = 0.15f;
 
         while (elapsed < duration)
         {
@@ -95,61 +99,39 @@ public class PowerUpManager : MonoBehaviour
             elapsed += flashSpeed * 2f;
         }
 
-        // Etki bitince rengi geri yükle
         rend.material.color = original;
     }
 
-    // 🛡️ Kalkan
-  private IEnumerator ActivateShield(float duration)
-{
-    if (isShielded) yield break;
-    isShielded = true;
-
-    // 🟣 Mor aura prefab'ını oluştur
-    if (shieldVisualPrefab != null)
+    private IEnumerator ActivateShield(float duration)
     {
-        activeShield = Instantiate(shieldVisualPrefab, transform.position, Quaternion.identity);
-        activeShield.transform.SetParent(transform);
-        activeShield.transform.localPosition = new Vector3(0f, 0.8f, 0f);
+        if (isShielded) yield break;
+        isShielded = true;
 
-        // Shield script'ini al
-        Shield shield = activeShield.GetComponent<Shield>();
-
-        // 🕐 Bir frame bekle ki Shield.Start() çalışsın (_renderer null olmasın)
-        yield return null;
-
-        if (shield != null)
+        if (shieldVisualPrefab != null)
         {
-            // 🔹 Açılma animasyonu
-            shield.OpenCloseShield();
-        }
-    }
+            activeShield = Instantiate(shieldVisualPrefab, transform.position, Quaternion.identity);
+            activeShield.transform.SetParent(transform);
+            activeShield.transform.localPosition = new Vector3(0f, 0.8f, 0f);
 
-    // 🛡️ Hasar engelle
-    EnemyAttack.IgnorePlayerDamage = true;
-
-    // ⏳ Süre boyunca açık kalsın
-    yield return new WaitForSeconds(duration);
-
-    // ❌ Hasarı tekrar aktif et
-    EnemyAttack.IgnorePlayerDamage = false;
-
-    // 🔻 Kapanma animasyonu
-    if (activeShield != null)
-    {
-        Shield shield = activeShield.GetComponent<Shield>();
-        if (shield != null)
-        {
-            shield.OpenCloseShield(); // kapanma animasyonu
-            yield return new WaitForSeconds(1f); // animasyonun bitmesi için biraz bekle
+            Shield shield = activeShield.GetComponent<Shield>();
+            yield return null;
+            if (shield != null)
+                shield.OpenCloseShield();
         }
 
-        Destroy(activeShield);
+        EnemyAttack.IgnorePlayerDamage = true;
+        yield return new WaitForSeconds(duration);
+        EnemyAttack.IgnorePlayerDamage = false;
+
+        if (activeShield != null)
+        {
+            Shield shield = activeShield.GetComponent<Shield>();
+            if (shield != null)
+                shield.OpenCloseShield();
+            yield return new WaitForSeconds(1f);
+            Destroy(activeShield);
+        }
+
+        isShielded = false;
     }
-
-    isShielded = false;
-}
-
-
-
 }
