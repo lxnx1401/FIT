@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class PowerUpManager : MonoBehaviour
@@ -15,6 +15,11 @@ public class PowerUpManager : MonoBehaviour
     [Header("UI Manager")]
     public PowerUpUIManager uiManager;
 
+    [Header("Audio Settings")]
+    public AudioSource audioSource;              // AudioSource zum Abspielen
+    public AudioClip[] powerUpSounds;            // Verschiedene Sounds für Power-Ups
+    public bool randomizePitch = true;           // Optional: leichte Variation
+
     private void Start()
     {
         shooting = GetComponent<PlayerShooting>();
@@ -24,29 +29,53 @@ public class PowerUpManager : MonoBehaviour
 
         if (uiManager == null)
             uiManager = FindObjectOfType<PowerUpUIManager>();
+
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
     public void ActivatePowerUp(GiftPickup.PowerUpType type, float duration)
     {
+        // 🔸 SOUND abspielen
+        PlayPowerUpSound();
+
         switch (type)
         {
             case GiftPickup.PowerUpType.DamageUp:
                 StartCoroutine(DamageBoost(duration));
                 if (uiManager) uiManager.ShowIcon(uiManager.damageIcon, duration);
                 break;
+
             case GiftPickup.PowerUpType.FireRateUp:
                 StartCoroutine(FireRateBoost(duration));
                 if (uiManager) uiManager.ShowIcon(uiManager.fireRateIcon, duration);
                 break;
+
             case GiftPickup.PowerUpType.SlowEnemies:
                 StartCoroutine(SlowEnemies(duration));
                 if (uiManager) uiManager.ShowIcon(uiManager.slowIcon, duration);
                 break;
+
             case GiftPickup.PowerUpType.Shield:
                 StartCoroutine(ActivateShield(duration));
                 if (uiManager) uiManager.ShowIcon(uiManager.shieldIcon, duration);
                 break;
         }
+    }
+
+    // 🔉 Sound abspielen, wenn PowerUp aktiviert wird
+    private void PlayPowerUpSound()
+    {
+        if (audioSource == null || powerUpSounds.Length == 0) return;
+
+        AudioClip clip = powerUpSounds[Random.Range(0, powerUpSounds.Length)];
+
+        if (randomizePitch)
+            audioSource.pitch = Random.Range(0.95f, 1.05f);
+        else
+            audioSource.pitch = 1f;
+
+        audioSource.PlayOneShot(clip);
     }
 
     private IEnumerator DamageBoost(float duration)

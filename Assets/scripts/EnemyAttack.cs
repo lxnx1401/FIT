@@ -11,16 +11,24 @@ public class EnemyAttack : MonoBehaviour
     public float flashDuration = 0.1f;
 
     [Header("Death Effects")]
-    public GameObject snowDeathEffect;  // Kar patlaması particle
-    public GameObject eyePrefab;        // Kömür göz
-    public GameObject carrotPrefab;     // Havuç
-    public float partForce = 3f;        // Fırlama kuvveti
+    public GameObject snowDeathEffect;  // Schneepartikel
+    public GameObject eyePrefab;        // Kohleauge
+    public GameObject carrotPrefab;     // Karotte
+    public float partForce = 3f;        // Wurfkraft
+
+    [Header("Audio Settings")]
+    public AudioSource audioSource;     // Soundquelle
+    public AudioClip[] deathSounds;     // Verschiedene Todessounds
+    public bool randomizePitch = true;  // Option für zufällige Tonhöhe
 
     private void Start()
     {
         rend = GetComponentInChildren<Renderer>();
         if (rend != null)
             originalColor = rend.material.color;
+
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -45,28 +53,46 @@ public class EnemyAttack : MonoBehaviour
     }
 
     // ------------------------------
-    // ÖLÜM FONKSİYONU
+    // TOD-FUNKTION
     // ------------------------------
     private void Die()
     {
-        // ❄️ Kar patlama efekti
+        // 🔊 Sound abspielen
+        PlayDeathSound();
+
+        // ❄️ Schneepartikel
         if (snowDeathEffect != null)
             Instantiate(snowDeathEffect, transform.position + Vector3.up * 1f, Quaternion.identity);
 
-        // 👀 İki göz fırlatma
+        // 👀 Augen
         if (eyePrefab != null)
         {
             SpawnPart(eyePrefab);
             SpawnPart(eyePrefab);
         }
 
-        // 🥕 Havuç burun fırlatma
+        // 🥕 Karotte
         if (carrotPrefab != null)
         {
             SpawnPart(carrotPrefab);
         }
 
         Destroy(gameObject);
+    }
+
+    // 🔉 Sound abspielen
+    private void PlayDeathSound()
+    {
+        if (audioSource == null || deathSounds.Length == 0) return;
+
+        AudioClip clip = deathSounds[Random.Range(0, deathSounds.Length)];
+
+        if (randomizePitch)
+            audioSource.pitch = Random.Range(0.95f, 1.05f);
+        else
+            audioSource.pitch = 1f;
+
+        audioSource.PlayOneShot(clip);
     }
 
     // Göz & burun parçalarını fırlatma
@@ -78,15 +104,14 @@ public class EnemyAttack : MonoBehaviour
         if (rb != null)
         {
             Vector3 randomDir = Random.onUnitSphere;
-            randomDir.y = Mathf.Abs(randomDir.y); // yukarı ağırlıklı
-
+            randomDir.y = Mathf.Abs(randomDir.y); // eher nach oben
             rb.AddForce(randomDir * partForce, ForceMode.Impulse);
         }
 
         Destroy(obj, 1.2f);
     }
 
-    // 🔴 Hasar alırken kısa kırmızı flash
+    // 🔴 Kurz rot aufblinken beim Treffer
     private IEnumerator DamageFlash()
     {
         if (rend != null)

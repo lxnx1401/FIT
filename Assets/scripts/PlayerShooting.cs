@@ -16,8 +16,12 @@ public class PlayerShooting : MonoBehaviour
     [HideInInspector] public bool isDamageBoosted = false;
 
     [Header("Bullet Materials")]
-    public Material normalBulletMat;     // Beyaz materyal
-    public Material boostedBulletMat;    // Turuncu materyal
+    public Material normalBulletMat;     
+    public Material boostedBulletMat;    
+
+    [Header("Audio Settings")]
+    public AudioSource audioSource;          // Referenz zur AudioSource
+    public AudioClip[] shootSounds;          // Eine oder mehrere Schuss-Sounds
 
     private float m_timeStamp = 0f;
     private Mouse mouse;
@@ -25,13 +29,16 @@ public class PlayerShooting : MonoBehaviour
     void Start()
     {
         mouse = Mouse.current;
+
+        // Falls keine AudioSource manuell gesetzt wurde, versuch sie automatisch zu finden
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
         if (mouse == null) return;
 
-        // Sol mouse tuşu basılıysa ateş et
         if (Time.time >= m_timeStamp && mouse.leftButton.isPressed)
         {
             Fire();
@@ -43,24 +50,25 @@ public class PlayerShooting : MonoBehaviour
     {
         if (BulletPrefab == null || BulletSpawn == null)
         {
-            Debug.LogWarning("BulletPrefab veya BulletSpawn atanmamış!");
+            Debug.LogWarning("BulletPrefab oder BulletSpawn ist nicht zugewiesen!");
             return;
         }
 
-        // Kartopunu oluştur
+        // 🔸 SOUND abspielen
+        PlayShootSound();
+
+        // Projektil erstellen
         GameObject bullet = Instantiate(BulletPrefab, BulletSpawn.position, BulletSpawn.rotation);
 
-        // Renderer'i child içinde bile bul
         Renderer rend = bullet.GetComponentInChildren<Renderer>();
         if (rend != null)
         {
             if (isDamageBoosted && boostedBulletMat != null)
-                rend.material = boostedBulletMat; // Turuncu
+                rend.material = boostedBulletMat; 
             else if (normalBulletMat != null)
-                rend.material = normalBulletMat;  // Beyaz
+                rend.material = normalBulletMat;
         }
 
-        // Merminin Rigidbody'sini ayarla
         Rigidbody bulletRb = bullet.GetComponent<Rigidbody>();
         if (bulletRb != null)
         {
@@ -68,10 +76,18 @@ public class PlayerShooting : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Bullet prefabında Rigidbody component yok!");
+            Debug.LogWarning("Bullet Prefab hat kein Rigidbody!");
         }
 
-        // 2 saniye sonra yok et
         Destroy(bullet, 2.0f);
+    }
+
+    void PlayShootSound()
+    {
+        if (audioSource == null || shootSounds.Length == 0) return;
+
+        // Wähle zufälligen Sound, falls mehrere vorhanden sind
+        AudioClip clip = shootSounds[Random.Range(0, shootSounds.Length)];
+        audioSource.PlayOneShot(clip);
     }
 }
