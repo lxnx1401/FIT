@@ -262,6 +262,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -269,6 +273,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (10)
@@ -356,6 +368,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -363,6 +379,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -458,6 +482,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -465,6 +493,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -791,6 +827,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -798,6 +838,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6019,6 +6067,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -6026,6 +6078,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6347,6 +6407,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -6354,6 +6418,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (6)
@@ -21798,13 +21870,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: randomizePitch
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21895,6 +21983,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -21902,6 +21994,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (8)
@@ -27040,6 +27140,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -27047,6 +27151,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27130,6 +27242,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -27137,6 +27253,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -27635,6 +27759,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -27642,6 +27770,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (7)
@@ -27729,6 +27865,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -27736,6 +27876,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -27839,6 +27987,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -27846,6 +27998,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Endboss
@@ -27923,6 +28083,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -27930,6 +28094,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (20)
@@ -28137,6 +28309,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -28144,6 +28320,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33177,6 +33361,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -33184,6 +33372,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (22)
@@ -33263,6 +33459,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -33270,6 +33470,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (27)
@@ -33568,102 +33776,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &852872837
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1824954169}
-    m_Modifications:
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 92.886536
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.16823
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: eyePrefab
-      value: 
-      objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
-    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 287581542}
-    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: carrotPrefab
-      value: 
-      objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
-    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: snowDeathEffect
-      value: 
-      objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
-    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: deathSounds.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: 'deathSounds.Array.data[0]'
-      value: 
-      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
-    - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      propertyPath: m_Name
-      value: Snowman (11) Variant
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1927006266}
-  m_SourcePrefab: {fileID: 100100000, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
 --- !u!1 &857686189
 GameObject:
   m_ObjectHideFlags: 0
@@ -33804,6 +33916,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -33811,6 +33927,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (21)
@@ -33963,6 +34087,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -33970,6 +34098,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (12)
@@ -34049,6 +34185,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -34056,6 +34196,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (31)
@@ -34140,6 +34288,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -34147,6 +34299,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (15)
@@ -34257,6 +34417,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -34264,6 +34428,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (3)
@@ -34432,6 +34604,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -34439,6 +34615,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Endboss (1)
@@ -34742,6 +34926,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -34749,6 +34937,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35040,6 +35236,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -35047,6 +35247,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -35216,6 +35424,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -35223,6 +35435,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (23)
@@ -35377,6 +35597,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -35384,6 +35608,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (24)
@@ -40411,6 +40643,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -40418,6 +40654,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (19)
@@ -40497,6 +40741,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -40504,6 +40752,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (28)
@@ -40583,6 +40839,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -40590,6 +40850,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (25)
@@ -45643,6 +45911,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -45650,6 +45922,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (11)
@@ -45734,11 +46014,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4863959601346164826, guid: 26e6b06dfc833874eb81ffcdaf8715b3, type: 3}
   m_PrefabInstance: {fileID: 1327221336}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1334446460 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 119692358720775283, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-  m_PrefabInstance: {fileID: 852872837}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1340201689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45804,6 +46079,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -45811,6 +46090,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (14)
@@ -45890,6 +46177,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -45897,6 +46188,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (9)
@@ -45976,6 +46275,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -45983,6 +46286,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (17)
@@ -50907,6 +51218,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -50914,6 +51229,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (26)
@@ -65810,13 +66133,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: randomizePitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65900,13 +66239,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: randomizePitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -65990,6 +66345,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -65997,6 +66356,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66222,6 +66589,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -66229,6 +66600,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -66399,6 +66778,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -66406,6 +66789,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7830437484032874499, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 8376861892321036176, guid: 42aba7e33524f8eee9f3bf5ec1f8a9d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -66501,6 +66892,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -66508,6 +66903,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71501,6 +71904,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -71508,6 +71915,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (16)
@@ -91341,6 +91756,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -91348,6 +91767,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (18)
@@ -96526,7 +96953,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1334446460}
   - {fileID: 1159377995}
   - {fileID: 465859892}
   - {fileID: 653620787}
@@ -96838,6 +97264,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -96845,6 +97275,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (29)
@@ -97271,6 +97709,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -97278,38 +97720,19 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8343800770639289760, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48c87c7a286968458972d94aac1831cd, type: 3}
---- !u!1 &1927006259 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
-  m_PrefabInstance: {fileID: 852872837}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1927006266
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927006259}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5ed1c6ac2715f3c4cabecfc991f073df, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1927145184
 GameObject:
   m_ObjectHideFlags: 0
@@ -97487,6 +97910,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -97494,6 +97921,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (4)
@@ -107454,6 +107889,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -107461,6 +107900,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (30)
@@ -107825,6 +108272,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1971342780087120947, guid: eb0235de4db4efbf1893f6561b0fda89, type: 3}
     - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 287581542}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: carrotPrefab
       value: 
       objectReference: {fileID: 2970843753383897763, guid: a8d154b6569778f8bae85c607e751376, type: 3}
@@ -107832,6 +108283,14 @@ PrefabInstance:
       propertyPath: snowDeathEffect
       value: 
       objectReference: {fileID: 7842211541554247726, guid: e3e1b455fcdd23603ab71a0a28facbc7, type: 3}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: deathSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6499636601205703549, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
+      propertyPath: 'deathSounds.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 7244670565859050013, guid: a483e8062ba5791db9076fe4759b7b70, type: 3}
       propertyPath: m_Name
       value: Snowman (11) Variant (13)
