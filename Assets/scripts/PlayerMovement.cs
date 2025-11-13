@@ -1,35 +1,80 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour 
+public class PlayerMovement : MonoBehaviour
 {
-    private Vector2 m_moveInput;
-    public float PlayerSpeed = 5f;
-    public float SprintMultiplier = 2f; // wie viel schneller beim Sprinten
+    public float moveSpeed = 5f;
+    public float sprintMultiplier = 2f;
+    public float smoothTime = 0.1f;
+    public Transform cameraTransform;
 
-    void Update() 
+    private CharacterController controller;
+    private Vector2 moveInput;
+    private Vector3 currentVelocity;
+    private Vector3 velocityRef;
+
+    void Start()
     {
-        // Eingaben holen
-        m_moveInput = Vector2.zero;
-        
-        if (Keyboard.current.wKey.isPressed) m_moveInput.y += 1;
-        if (Keyboard.current.sKey.isPressed) m_moveInput.y -= 1;
-        if (Keyboard.current.dKey.isPressed) m_moveInput.x += 1;
-        if (Keyboard.current.aKey.isPressed) m_moveInput.x -= 1;
+        controller = GetComponent<CharacterController>();
 
-        if (m_moveInput.magnitude > 1)
-            m_moveInput.Normalize();
+        if (cameraTransform == null)
+            cameraTransform = Camera.main.transform;
+    }
 
-        // Sprint nur bei W + Shift
-        bool isSprinting = (Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed)
-                           && Keyboard.current.wKey.isPressed;
+    void Update()
+    {
+        HandleInput();
+        MovePlayer();
+    }
 
-        float currentSpeed = isSprinting ? PlayerSpeed * SprintMultiplier : PlayerSpeed;
+    void HandleInput()
+    {
+        moveInput = Vector2.zero;
 
-        // Bewegung anwenden
-        Vector3 movement = new Vector3(m_moveInput.x, 0f, m_moveInput.y) * currentSpeed * Time.deltaTime;
-        transform.Translate(movement, Space.World);
+        if (Keyboard.current.wKey.isPressed) moveInput.y += 1;
+        if (Keyboard.current.sKey.isPressed) moveInput.y -= 1;
+        if (Keyboard.current.dKey.isPressed) moveInput.x += 1;
+        if (Keyboard.current.aKey.isPressed) moveInput.x -= 1;
+
+        if (moveInput.magnitude > 1)
+            moveInput.Normalize();
+    }
+
+    void MovePlayer()
+    {
+        bool isSprinting =
+            (Keyboard.current.leftShiftKey.isPressed || Keyboard.current.rightShiftKey.isPressed)
+            && moveInput.y > 0; // sadece ileri koş
+
+        float speed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
+
+        // Kameraya göre yön
+        Vector3 forward = cameraTransform.forward;
+        Vector3 right = cameraTransform.right;
+        forward.y = 0;
+        right.y = 0;
+        forward.Normalize();
+        right.Normalize();
+
+        Vector3 targetDir = (right * moveInput.x + forward * moveInput.y).normalized;
+        Vector3 targetVelocity = targetDir * speed;
+
+        // Yumuşak hız değişimi
+        currentVelocity = Vector3.SmoothDamp(
+            currentVelocity,
+            targetVelocity,
+            ref velocityRef,
+            smoothTime
+        );
+
+        // CharacterController ile hareket
+        controller.Move(currentVelocity * Time.deltaTime);
+
+        // Dönme (isteğe bağlı)
+        if (targetDir != Vector3.zero)
+        {
+            Quaternion targetRot = Quaternion.LookRotation(targetDir);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRot, Time.deltaTime * 10f);
+        }
     }
 }
-
-
