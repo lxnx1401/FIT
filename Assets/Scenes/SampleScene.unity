@@ -706,6 +706,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7279145733079960148, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: m_Name
       value: snomannew (18)
@@ -1215,7 +1219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &111432508
@@ -6807,7 +6811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &199336639
@@ -6972,6 +6976,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
       objectReference: {fileID: 0}
@@ -7120,7 +7128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &239665166
@@ -17076,7 +17084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &281906016
@@ -17311,7 +17319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &286340990
@@ -17678,8 +17686,7 @@ Transform:
   m_LocalPosition: {x: -18.97, y: 14.5, z: 50.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1899211039}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 86.03, z: 0}
 --- !u!114 &330585547
@@ -18223,6 +18230,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
       objectReference: {fileID: 0}
@@ -18507,7 +18518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &417645768
@@ -23693,7 +23704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &424609346
@@ -29692,7 +29703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &591175559
@@ -29829,7 +29840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &594680437
@@ -29996,6 +30007,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -30229,7 +30244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &615613030
@@ -30679,7 +30694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &679379567
@@ -30953,7 +30968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &685332055
@@ -37101,7 +37116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &819247832
@@ -38412,7 +38427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &936816802
@@ -38478,6 +38493,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -39008,7 +39027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &990932546
@@ -39271,7 +39290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1015528470
@@ -39542,7 +39561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1023245812
@@ -39613,6 +39632,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -40275,6 +40298,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
       objectReference: {fileID: 0}
@@ -40520,7 +40547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1139178326
@@ -46020,7 +46047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1216332417
@@ -46140,6 +46167,14 @@ PrefabInstance:
     - target: {fileID: 6525669745799432080, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
       propertyPath: m_Name
       value: "FUNKTION\u0130ERT"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
+      propertyPath: attackRange
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51211,7 +51246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1258414508
@@ -51300,6 +51335,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -51637,7 +51676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1288554360
@@ -51726,6 +51765,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -57647,7 +57690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1381831942
@@ -57816,7 +57859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1382710646
@@ -72870,7 +72913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1434591495
@@ -73298,7 +73341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1488080584
@@ -73530,8 +73573,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 287581542}
     - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
       propertyPath: attackRange
-      value: 50
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74103,7 +74150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1540471881
@@ -74389,7 +74436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1570255694
@@ -74769,6 +74816,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -94484,6 +94535,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7279145733079960148, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: m_Name
       value: snomannew (16)
@@ -94553,6 +94608,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -99576,6 +99635,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "FUNKTION\u0130ERT (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
+      propertyPath: attackRange
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -99759,7 +99826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1730625025
@@ -100144,6 +100211,10 @@ PrefabInstance:
       propertyPath: 'deathSounds.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
@@ -105379,7 +105450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1790164038
@@ -106064,7 +106135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 7
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1850633949
@@ -106306,7 +106377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1879677460
@@ -106400,14 +106471,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899211038}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.222995, y: 0.4903146, z: -0.13137943, w: 0.83222854}
+  m_LocalPosition: {x: -21.785816, y: -6.90546, z: -9.978601}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.49999994}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 337785135}
   - {fileID: 1406181261}
-  m_Father: {fileID: 330585546}
+  m_Father: {fileID: 7692995796264264763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1899211040
 MonoBehaviour:
@@ -106613,7 +106684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1915763577
@@ -106945,7 +107016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1947869176
@@ -107105,7 +107176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &1966876029
@@ -117076,7 +117147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &2019461065
@@ -117201,6 +117272,10 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 287581542}
+    - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
       propertyPath: attackRange
       value: 50
@@ -117798,8 +117873,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 287581542}
     - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
       propertyPath: attackRange
-      value: 50
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -117995,7 +118074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &2117532268
@@ -118578,6 +118657,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 2f19d6d490a25d24490f8424e9bea415, type: 3}
     - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
+      propertyPath: EnemySpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1333969234250603684, guid: 48cad3277b25a9806956679142e5b9e1, type: 3}
       propertyPath: attackRange
       value: 50
       objectReference: {fileID: 0}
@@ -118844,7 +118927,7 @@ Transform:
   m_GameObject: {fileID: 5298424441216682201}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.41540787, z: 0, w: 0.9096353}
-  m_LocalPosition: {x: 20.80308, y: 2.21, z: 56.650665}
+  m_LocalPosition: {x: 39.9, y: 2.21, z: 73.2}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -118944,7 +119027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1adb2dff36f7f97ccb1eaba96d49a525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  EnemySpeed: 3
+  EnemySpeed: 8
   RotationSpeed: 5
   attackRange: 50
 --- !u!114 &4354693420529782840
@@ -119104,7 +119187,7 @@ PrefabInstance:
       objectReference: {fileID: 287581542}
     - target: {fileID: 8629743001570169315, guid: be444fa6a037c2e5f9833f7847a1b601, type: 3}
       propertyPath: attackRange
-      value: 50
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -119211,7 +119294,8 @@ Transform:
   m_LocalPosition: {x: 4.4151306, y: 7.136001, z: -9.884031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1899211039}
   m_Father: {fileID: 4269551886550248940}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &7692995796264264764
@@ -119286,6 +119370,7 @@ GameObject:
   - component: {fileID: 7692995796264264765}
   - component: {fileID: 7718247180469245987}
   - component: {fileID: 7718247180469245988}
+  - component: {fileID: 7718247180469245989}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -119371,6 +119456,22 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &7718247180469245989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692995796264264766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cc01a2acfd8f94e8757c4fc86300f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDeathSoundManager
+  player: {fileID: 1840051993}
+  audioSource: {fileID: 1406181262}
+  deathClip: {fileID: 8300000, guid: 03fc11499b31c254288ff5a898d845be, type: 3}
+  menuSceneName: Menu
 --- !u!95 &8503999516063096316
 Animator:
   serializedVersion: 7
